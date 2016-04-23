@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/fincore/lab/sws/test/crypto_test.cpp
+iostream
+-
+sstream
+-
+vector
+-
+utility
+-
+iomanip
+-
+crypto.hpp
+/home/fincore/lab/sws/test/crypto.hpp
+
+crypto.hpp
+string
+-
+cmath
+-
+openssl/evp.h
+-
+openssl/buffer.h
+-
+openssl/sha.h
+-
+openssl/md5.h
+-
+

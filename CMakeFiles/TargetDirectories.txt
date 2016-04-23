@@ -1,0 +1,4 @@
+/home/fincore/lab/sws/test/CMakeFiles/crypto_test.dir
+/home/fincore/lab/sws/test/CMakeFiles/parse_test.dir
+/home/fincore/lab/sws/CMakeFiles/ws_examples.dir
+/home/fincore/lab/sws/CMakeFiles/wss_examples.dir
