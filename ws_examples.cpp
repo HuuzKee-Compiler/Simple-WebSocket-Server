@@ -24,7 +24,7 @@ int main() {
         //data_ss << message->rdbuf();
         //auto message_str = data_ss.str();
         auto message_str=message->string();
-        auto message_reply="Hello Marcelle !" ;
+        auto message_reply="Hello Marcelle 2 !" ;
 
         cout << "Server: Message received: \"" << message_str << "\" from" << (size_t)connection.get() << endl;
 
@@ -135,7 +135,7 @@ int main() {
     client.onopen=[&client]() {
         cout << "Client: Opened connection" << endl;
 
-        string message="Hello Server !";
+        string message="Hello Server 2 !";
         cout << "Client: Sending message: \"" << message << "\"" << endl;
 
         auto send_stream=make_shared<WsClient::SendStream>();

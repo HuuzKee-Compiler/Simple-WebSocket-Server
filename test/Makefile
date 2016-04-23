@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fincore/lab/sws
+CMAKE_SOURCE_DIR = /home/huuzlee/lab/sws
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fincore/lab/sws
+CMAKE_BINARY_DIR = /home/huuzlee/lab/sws
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -82,14 +82,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/fincore/lab/sws && $(CMAKE_COMMAND) -E cmake_progress_start /home/fincore/lab/sws/CMakeFiles /home/fincore/lab/sws/test/CMakeFiles/progress.marks
-	cd /home/fincore/lab/sws && $(MAKE) -f CMakeFiles/Makefile2 test/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fincore/lab/sws/CMakeFiles 0
+	cd /home/huuzlee/lab/sws && $(CMAKE_COMMAND) -E cmake_progress_start /home/huuzlee/lab/sws/CMakeFiles /home/huuzlee/lab/sws/test/CMakeFiles/progress.marks
+	cd /home/huuzlee/lab/sws && $(MAKE) -f CMakeFiles/Makefile2 test/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/huuzlee/lab/sws/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/fincore/lab/sws && $(MAKE) -f CMakeFiles/Makefile2 test/clean
+	cd /home/huuzlee/lab/sws && $(MAKE) -f CMakeFiles/Makefile2 test/clean
 .PHONY : clean
 
 # The main clean target
@@ -98,22 +98,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/fincore/lab/sws && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
+	cd /home/huuzlee/lab/sws && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/fincore/lab/sws && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
+	cd /home/huuzlee/lab/sws && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/fincore/lab/sws && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/huuzlee/lab/sws && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 test/CMakeFiles/crypto_test.dir/rule:
-	cd /home/fincore/lab/sws && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/crypto_test.dir/rule
+	cd /home/huuzlee/lab/sws && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/crypto_test.dir/rule
 .PHONY : test/CMakeFiles/crypto_test.dir/rule
 
 # Convenience name for target.
@@ -122,12 +122,12 @@ crypto_test: test/CMakeFiles/crypto_test.dir/rule
 
 # fast build rule for target.
 crypto_test/fast:
-	cd /home/fincore/lab/sws && $(MAKE) -f test/CMakeFiles/crypto_test.dir/build.make test/CMakeFiles/crypto_test.dir/build
+	cd /home/huuzlee/lab/sws && $(MAKE) -f test/CMakeFiles/crypto_test.dir/build.make test/CMakeFiles/crypto_test.dir/build
 .PHONY : crypto_test/fast
 
 # Convenience name for target.
 test/CMakeFiles/parse_test.dir/rule:
-	cd /home/fincore/lab/sws && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/parse_test.dir/rule
+	cd /home/huuzlee/lab/sws && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/parse_test.dir/rule
 .PHONY : test/CMakeFiles/parse_test.dir/rule
 
 # Convenience name for target.
@@ -136,7 +136,7 @@ parse_test: test/CMakeFiles/parse_test.dir/rule
 
 # fast build rule for target.
 parse_test/fast:
-	cd /home/fincore/lab/sws && $(MAKE) -f test/CMakeFiles/parse_test.dir/build.make test/CMakeFiles/parse_test.dir/build
+	cd /home/huuzlee/lab/sws && $(MAKE) -f test/CMakeFiles/parse_test.dir/build.make test/CMakeFiles/parse_test.dir/build
 .PHONY : parse_test/fast
 
 crypto_test.o: crypto_test.cpp.o
@@ -144,7 +144,7 @@ crypto_test.o: crypto_test.cpp.o
 
 # target to build an object file
 crypto_test.cpp.o:
-	cd /home/fincore/lab/sws && $(MAKE) -f test/CMakeFiles/crypto_test.dir/build.make test/CMakeFiles/crypto_test.dir/crypto_test.cpp.o
+	cd /home/huuzlee/lab/sws && $(MAKE) -f test/CMakeFiles/crypto_test.dir/build.make test/CMakeFiles/crypto_test.dir/crypto_test.cpp.o
 .PHONY : crypto_test.cpp.o
 
 crypto_test.i: crypto_test.cpp.i
@@ -152,7 +152,7 @@ crypto_test.i: crypto_test.cpp.i
 
 # target to preprocess a source file
 crypto_test.cpp.i:
-	cd /home/fincore/lab/sws && $(MAKE) -f test/CMakeFiles/crypto_test.dir/build.make test/CMakeFiles/crypto_test.dir/crypto_test.cpp.i
+	cd /home/huuzlee/lab/sws && $(MAKE) -f test/CMakeFiles/crypto_test.dir/build.make test/CMakeFiles/crypto_test.dir/crypto_test.cpp.i
 .PHONY : crypto_test.cpp.i
 
 crypto_test.s: crypto_test.cpp.s
@@ -160,7 +160,7 @@ crypto_test.s: crypto_test.cpp.s
 
 # target to generate assembly for a file
 crypto_test.cpp.s:
-	cd /home/fincore/lab/sws && $(MAKE) -f test/CMakeFiles/crypto_test.dir/build.make test/CMakeFiles/crypto_test.dir/crypto_test.cpp.s
+	cd /home/huuzlee/lab/sws && $(MAKE) -f test/CMakeFiles/crypto_test.dir/build.make test/CMakeFiles/crypto_test.dir/crypto_test.cpp.s
 .PHONY : crypto_test.cpp.s
 
 parse_test.o: parse_test.cpp.o
@@ -168,7 +168,7 @@ parse_test.o: parse_test.cpp.o
 
 # target to build an object file
 parse_test.cpp.o:
-	cd /home/fincore/lab/sws && $(MAKE) -f test/CMakeFiles/parse_test.dir/build.make test/CMakeFiles/parse_test.dir/parse_test.cpp.o
+	cd /home/huuzlee/lab/sws && $(MAKE) -f test/CMakeFiles/parse_test.dir/build.make test/CMakeFiles/parse_test.dir/parse_test.cpp.o
 .PHONY : parse_test.cpp.o
 
 parse_test.i: parse_test.cpp.i
@@ -176,7 +176,7 @@ parse_test.i: parse_test.cpp.i
 
 # target to preprocess a source file
 parse_test.cpp.i:
-	cd /home/fincore/lab/sws && $(MAKE) -f test/CMakeFiles/parse_test.dir/build.make test/CMakeFiles/parse_test.dir/parse_test.cpp.i
+	cd /home/huuzlee/lab/sws && $(MAKE) -f test/CMakeFiles/parse_test.dir/build.make test/CMakeFiles/parse_test.dir/parse_test.cpp.i
 .PHONY : parse_test.cpp.i
 
 parse_test.s: parse_test.cpp.s
@@ -184,7 +184,7 @@ parse_test.s: parse_test.cpp.s
 
 # target to generate assembly for a file
 parse_test.cpp.s:
-	cd /home/fincore/lab/sws && $(MAKE) -f test/CMakeFiles/parse_test.dir/build.make test/CMakeFiles/parse_test.dir/parse_test.cpp.s
+	cd /home/huuzlee/lab/sws && $(MAKE) -f test/CMakeFiles/parse_test.dir/build.make test/CMakeFiles/parse_test.dir/parse_test.cpp.s
 .PHONY : parse_test.cpp.s
 
 # Help Target
@@ -215,6 +215,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/fincore/lab/sws && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/huuzlee/lab/sws && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

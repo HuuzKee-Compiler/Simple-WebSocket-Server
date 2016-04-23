@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/fincore/lab/sws/test/crypto_test.cpp" "/home/fincore/lab/sws/test/CMakeFiles/crypto_test.dir/crypto_test.cpp.o"
+  "/home/huuzlee/lab/sws/test/crypto_test.cpp" "/home/huuzlee/lab/sws/test/CMakeFiles/crypto_test.dir/crypto_test.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -14,7 +14,7 @@ SET(CMAKE_TARGET_LINKED_INFO_FILES
 
 # The include file search paths:
 SET(CMAKE_C_TARGET_INCLUDE_PATH
-  "/home/fincore/boost/include"
+  "/usr/boost/include"
   "."
   )
 SET(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})

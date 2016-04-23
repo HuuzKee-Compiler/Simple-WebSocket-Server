@@ -275,3 +275,33 @@ Linking C executable cmTryCompileExec57219951
 gmake[1]: Leaving directory `/home/fincore/lab/sws/CMakeFiles/CMakeTmp'
 
 
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/huuzlee/lab/sws/CMakeFiles/CMakeTmp
+
+Run Build Command:/bin/gmake "cmTryCompileExec2309307654/fast"
+/bin/gmake -f CMakeFiles/cmTryCompileExec2309307654.dir/build.make CMakeFiles/cmTryCompileExec2309307654.dir/build
+gmake[1]: Entering directory `/home/huuzlee/lab/sws/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/huuzlee/lab/sws/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2309307654.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2309307654.dir/CheckIncludeFiles.c.o   -c /home/huuzlee/lab/sws/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2309307654
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2309307654.dir/link.txt --verbose=1
+/usr/bin/cc         CMakeFiles/cmTryCompileExec2309307654.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2309307654 -rdynamic 
+gmake[1]: Leaving directory `/home/huuzlee/lab/sws/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/huuzlee/lab/sws/CMakeFiles/CMakeTmp
+
+Run Build Command:/bin/gmake "cmTryCompileExec1560214967/fast"
+/bin/gmake -f CMakeFiles/cmTryCompileExec1560214967.dir/build.make CMakeFiles/cmTryCompileExec1560214967.dir/build
+gmake[1]: Entering directory `/home/huuzlee/lab/sws/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/huuzlee/lab/sws/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1560214967.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec1560214967.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1560214967
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1560214967.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec1560214967.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1560214967 -rdynamic -lpthread 
+gmake[1]: Leaving directory `/home/huuzlee/lab/sws/CMakeFiles/CMakeTmp'
+
+

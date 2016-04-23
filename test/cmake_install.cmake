@@ -1,8 +1,8 @@
-# Install script for directory: /home/fincore/lab/sws/test
+# Install script for directory: /home/huuzlee/lab/sws/test
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  SET(CMAKE_INSTALL_PREFIX "")
+  SET(CMAKE_INSTALL_PREFIX "/usr/boost")
 ENDIF(NOT DEFINED CMAKE_INSTALL_PREFIX)
 STRING(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

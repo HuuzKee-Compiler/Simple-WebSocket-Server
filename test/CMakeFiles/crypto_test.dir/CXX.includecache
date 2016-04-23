@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/fincore/lab/sws/test/crypto_test.cpp
+/home/huuzlee/lab/sws/test/crypto_test.cpp
 iostream
 -
 sstream
@@ -18,7 +18,7 @@ utility
 iomanip
 -
 crypto.hpp
-/home/fincore/lab/sws/test/crypto.hpp
+/home/huuzlee/lab/sws/test/crypto.hpp
 
 crypto.hpp
 string

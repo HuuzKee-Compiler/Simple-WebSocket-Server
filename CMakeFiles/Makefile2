@@ -50,10 +50,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fincore/lab/sws
+CMAKE_SOURCE_DIR = /home/huuzlee/lab/sws
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fincore/lab/sws
+CMAKE_BINARY_DIR = /home/huuzlee/lab/sws
 
 #=============================================================================
 # Target rules for target CMakeFiles/ws_examples.dir
@@ -62,7 +62,7 @@ CMAKE_BINARY_DIR = /home/fincore/lab/sws
 CMakeFiles/ws_examples.dir/all:
 	$(MAKE) -f CMakeFiles/ws_examples.dir/build.make CMakeFiles/ws_examples.dir/depend
 	$(MAKE) -f CMakeFiles/ws_examples.dir/build.make CMakeFiles/ws_examples.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/fincore/lab/sws/CMakeFiles  3
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/huuzlee/lab/sws/CMakeFiles  3
 	@echo "Built target ws_examples"
 .PHONY : CMakeFiles/ws_examples.dir/all
 
@@ -72,9 +72,9 @@ all: CMakeFiles/ws_examples.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ws_examples.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fincore/lab/sws/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/huuzlee/lab/sws/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ws_examples.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fincore/lab/sws/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/huuzlee/lab/sws/CMakeFiles 0
 .PHONY : CMakeFiles/ws_examples.dir/rule
 
 # Convenience name for target.
@@ -97,7 +97,7 @@ clean: CMakeFiles/ws_examples.dir/clean
 CMakeFiles/wss_examples.dir/all:
 	$(MAKE) -f CMakeFiles/wss_examples.dir/build.make CMakeFiles/wss_examples.dir/depend
 	$(MAKE) -f CMakeFiles/wss_examples.dir/build.make CMakeFiles/wss_examples.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/fincore/lab/sws/CMakeFiles  4
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/huuzlee/lab/sws/CMakeFiles  4
 	@echo "Built target wss_examples"
 .PHONY : CMakeFiles/wss_examples.dir/all
 
@@ -107,9 +107,9 @@ all: CMakeFiles/wss_examples.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/wss_examples.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fincore/lab/sws/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/huuzlee/lab/sws/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/wss_examples.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fincore/lab/sws/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/huuzlee/lab/sws/CMakeFiles 0
 .PHONY : CMakeFiles/wss_examples.dir/rule
 
 # Convenience name for target.
@@ -149,7 +149,7 @@ test/preinstall:
 test/CMakeFiles/crypto_test.dir/all:
 	$(MAKE) -f test/CMakeFiles/crypto_test.dir/build.make test/CMakeFiles/crypto_test.dir/depend
 	$(MAKE) -f test/CMakeFiles/crypto_test.dir/build.make test/CMakeFiles/crypto_test.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/fincore/lab/sws/CMakeFiles  1
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/huuzlee/lab/sws/CMakeFiles  1
 	@echo "Built target crypto_test"
 .PHONY : test/CMakeFiles/crypto_test.dir/all
 
@@ -159,9 +159,9 @@ all: test/CMakeFiles/crypto_test.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/crypto_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fincore/lab/sws/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/huuzlee/lab/sws/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/crypto_test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fincore/lab/sws/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/huuzlee/lab/sws/CMakeFiles 0
 .PHONY : test/CMakeFiles/crypto_test.dir/rule
 
 # Convenience name for target.
@@ -184,7 +184,7 @@ clean: test/CMakeFiles/crypto_test.dir/clean
 test/CMakeFiles/parse_test.dir/all:
 	$(MAKE) -f test/CMakeFiles/parse_test.dir/build.make test/CMakeFiles/parse_test.dir/depend
 	$(MAKE) -f test/CMakeFiles/parse_test.dir/build.make test/CMakeFiles/parse_test.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/fincore/lab/sws/CMakeFiles  2
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/huuzlee/lab/sws/CMakeFiles  2
 	@echo "Built target parse_test"
 .PHONY : test/CMakeFiles/parse_test.dir/all
 
@@ -194,9 +194,9 @@ all: test/CMakeFiles/parse_test.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/parse_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fincore/lab/sws/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/huuzlee/lab/sws/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/parse_test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fincore/lab/sws/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/huuzlee/lab/sws/CMakeFiles 0
 .PHONY : test/CMakeFiles/parse_test.dir/rule
 
 # Convenience name for target.

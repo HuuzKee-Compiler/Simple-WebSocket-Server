@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fincore/lab/sws
+CMAKE_SOURCE_DIR = /home/huuzlee/lab/sws
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fincore/lab/sws
+CMAKE_BINARY_DIR = /home/huuzlee/lab/sws
 
 # Include any dependencies generated for this target.
 include CMakeFiles/wss_examples.dir/depend.make
@@ -54,17 +54,17 @@ include CMakeFiles/wss_examples.dir/flags.make
 
 CMakeFiles/wss_examples.dir/wss_examples.cpp.o: CMakeFiles/wss_examples.dir/flags.make
 CMakeFiles/wss_examples.dir/wss_examples.cpp.o: wss_examples.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/fincore/lab/sws/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/huuzlee/lab/sws/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/wss_examples.dir/wss_examples.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wss_examples.dir/wss_examples.cpp.o -c /home/fincore/lab/sws/wss_examples.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wss_examples.dir/wss_examples.cpp.o -c /home/huuzlee/lab/sws/wss_examples.cpp
 
 CMakeFiles/wss_examples.dir/wss_examples.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wss_examples.dir/wss_examples.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/fincore/lab/sws/wss_examples.cpp > CMakeFiles/wss_examples.dir/wss_examples.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/huuzlee/lab/sws/wss_examples.cpp > CMakeFiles/wss_examples.dir/wss_examples.cpp.i
 
 CMakeFiles/wss_examples.dir/wss_examples.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wss_examples.dir/wss_examples.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/fincore/lab/sws/wss_examples.cpp -o CMakeFiles/wss_examples.dir/wss_examples.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/huuzlee/lab/sws/wss_examples.cpp -o CMakeFiles/wss_examples.dir/wss_examples.cpp.s
 
 CMakeFiles/wss_examples.dir/wss_examples.cpp.o.requires:
 .PHONY : CMakeFiles/wss_examples.dir/wss_examples.cpp.o.requires
@@ -84,11 +84,11 @@ wss_examples_EXTERNAL_OBJECTS =
 
 wss_examples: CMakeFiles/wss_examples.dir/wss_examples.cpp.o
 wss_examples: CMakeFiles/wss_examples.dir/build.make
-wss_examples: /home/fincore/boost/lib/libboost_system.so
-wss_examples: /home/fincore/boost/lib/libboost_regex.so
-wss_examples: /home/fincore/boost/lib/libboost_coroutine.so
-wss_examples: /home/fincore/boost/lib/libboost_context.so
-wss_examples: /home/fincore/boost/lib/libboost_thread.so
+wss_examples: /usr/boost/lib/libboost_system.so
+wss_examples: /usr/boost/lib/libboost_regex.so
+wss_examples: /usr/boost/lib/libboost_coroutine.so
+wss_examples: /usr/boost/lib/libboost_context.so
+wss_examples: /usr/boost/lib/libboost_thread.so
 wss_examples: /usr/lib64/libssl.so
 wss_examples: /usr/lib64/libcrypto.so
 wss_examples: CMakeFiles/wss_examples.dir/link.txt
@@ -107,6 +107,6 @@ CMakeFiles/wss_examples.dir/clean:
 .PHONY : CMakeFiles/wss_examples.dir/clean
 
 CMakeFiles/wss_examples.dir/depend:
-	cd /home/fincore/lab/sws && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fincore/lab/sws /home/fincore/lab/sws /home/fincore/lab/sws /home/fincore/lab/sws /home/fincore/lab/sws/CMakeFiles/wss_examples.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/huuzlee/lab/sws && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/huuzlee/lab/sws /home/huuzlee/lab/sws /home/huuzlee/lab/sws /home/huuzlee/lab/sws /home/huuzlee/lab/sws/CMakeFiles/wss_examples.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/wss_examples.dir/depend
 
